@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6816974928501E31005CF721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816974828501E31005CF721 /* AppDelegate.swift */; };
+		6816974B28501E31005CF721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816974A28501E31005CF721 /* SceneDelegate.swift */; };
+		6816974D28501E31005CF721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816974C28501E31005CF721 /* ViewController.swift */; };
+		6816975028501E31005CF721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6816974E28501E31005CF721 /* Main.storyboard */; };
+		6816975228501E33005CF721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6816975128501E33005CF721 /* Assets.xcassets */; };
+		6816975528501E33005CF721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6816975328501E33005CF721 /* LaunchScreen.storyboard */; };
+		6816976028501E33005CF721 /* SerenifyWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816975F28501E33005CF721 /* SerenifyWebTests.swift */; };
+		6816976A28501E33005CF721 /* SerenifyWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816976928501E33005CF721 /* SerenifyWebUITests.swift */; };
+		6816976C28501E33005CF721 /* SerenifyWebUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816976B28501E33005CF721 /* SerenifyWebUITestsLaunchTests.swift */; };
+		6816977F2850283E005CF721 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816977E2850283E005CF721 /* PreviewView.swift */; };
+		6816978128503089005CF721 /* WebUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6816978028503089005CF721 /* WebUtils.swift */; };
+		68E8070B28D0F46000BFE813 /* BeamAISDK in Frameworks */ = {isa = PBXBuildFile; productRef = 68E8070A28D0F46000BFE813 /* BeamAISDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6816975C28501E33005CF721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6816973D28501E31005CF721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6816974428501E31005CF721;
+			remoteInfo = SerenifyWeb;
+		};
+		6816976628501E33005CF721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6816973D28501E31005CF721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6816974428501E31005CF721;
+			remoteInfo = SerenifyWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68CC4DC3288C58C0000134BE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6816974528501E31005CF721 /* BeamAIBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeamAIBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6816974828501E31005CF721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6816974A28501E31005CF721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6816974C28501E31005CF721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6816974F28501E31005CF721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6816975128501E33005CF721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6816975428501E33005CF721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6816975628501E33005CF721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6816975B28501E33005CF721 /* BeamAIBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamAIBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6816975F28501E33005CF721 /* SerenifyWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenifyWebTests.swift; sourceTree = "<group>"; };
+		6816976528501E33005CF721 /* BeamAIBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamAIBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6816976928501E33005CF721 /* SerenifyWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenifyWebUITests.swift; sourceTree = "<group>"; };
+		6816976B28501E33005CF721 /* SerenifyWebUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenifyWebUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6816977E2850283E005CF721 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		6816978028503089005CF721 /* WebUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6816974228501E31005CF721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E8070B28D0F46000BFE813 /* BeamAISDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816975828501E33005CF721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816976228501E33005CF721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6816973C28501E31005CF721 = {
+			isa = PBXGroup;
+			children = (
+				6816974728501E31005CF721 /* BeamAIBrowser */,
+				6816975E28501E33005CF721 /* BeamAIBrowserTests */,
+				6816976828501E33005CF721 /* BeamAIBrowserUITests */,
+				6816974628501E31005CF721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6816974628501E31005CF721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6816974528501E31005CF721 /* BeamAIBrowser.app */,
+				6816975B28501E33005CF721 /* BeamAIBrowserTests.xctest */,
+				6816976528501E33005CF721 /* BeamAIBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6816974728501E31005CF721 /* BeamAIBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				6816977E2850283E005CF721 /* PreviewView.swift */,
+				6816978028503089005CF721 /* WebUtils.swift */,
+				6816974828501E31005CF721 /* AppDelegate.swift */,
+				6816974A28501E31005CF721 /* SceneDelegate.swift */,
+				6816974C28501E31005CF721 /* ViewController.swift */,
+				6816974E28501E31005CF721 /* Main.storyboard */,
+				6816975128501E33005CF721 /* Assets.xcassets */,
+				6816975328501E33005CF721 /* LaunchScreen.storyboard */,
+				6816975628501E33005CF721 /* Info.plist */,
+			);
+			path = BeamAIBrowser;
+			sourceTree = "<group>";
+		};
+		6816975E28501E33005CF721 /* BeamAIBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				6816975F28501E33005CF721 /* SerenifyWebTests.swift */,
+			);
+			path = BeamAIBrowserTests;
+			sourceTree = "<group>";
+		};
+		6816976828501E33005CF721 /* BeamAIBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6816976928501E33005CF721 /* SerenifyWebUITests.swift */,
+				6816976B28501E33005CF721 /* SerenifyWebUITestsLaunchTests.swift */,
+			);
+			path = BeamAIBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6816974428501E31005CF721 /* BeamAIBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6816976F28501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowser" */;
+			buildPhases = (
+				6816974128501E31005CF721 /* Sources */,
+				6816974228501E31005CF721 /* Frameworks */,
+				6816974328501E31005CF721 /* Resources */,
+				68CC4DC3288C58C0000134BE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeamAIBrowser;
+			packageProductDependencies = (
+				68E8070A28D0F46000BFE813 /* BeamAISDK */,
+			);
+			productName = SerenifyWeb;
+			productReference = 6816974528501E31005CF721 /* BeamAIBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6816975A28501E33005CF721 /* BeamAIBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6816977228501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowserTests" */;
+			buildPhases = (
+				6816975728501E33005CF721 /* Sources */,
+				6816975828501E33005CF721 /* Frameworks */,
+				6816975928501E33005CF721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6816975D28501E33005CF721 /* PBXTargetDependency */,
+			);
+			name = BeamAIBrowserTests;
+			productName = SerenifyWebTests;
+			productReference = 6816975B28501E33005CF721 /* BeamAIBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6816976428501E33005CF721 /* BeamAIBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6816977528501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowserUITests" */;
+			buildPhases = (
+				6816976128501E33005CF721 /* Sources */,
+				6816976228501E33005CF721 /* Frameworks */,
+				6816976328501E33005CF721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6816976728501E33005CF721 /* PBXTargetDependency */,
+			);
+			name = BeamAIBrowserUITests;
+			productName = SerenifyWebUITests;
+			productReference = 6816976528501E33005CF721 /* BeamAIBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6816973D28501E31005CF721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6816974428501E31005CF721 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					6816975A28501E33005CF721 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 6816974428501E31005CF721;
+					};
+					6816976428501E33005CF721 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 6816974428501E31005CF721;
+					};
+				};
+			};
+			buildConfigurationList = 6816974028501E31005CF721 /* Build configuration list for PBXProject "BeamAIBrowser" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6816973C28501E31005CF721;
+			packageReferences = (
+				68E8070928D0F46000BFE813 /* XCRemoteSwiftPackageReference "BeamAISDK-iOS" */,
+			);
+			productRefGroup = 6816974628501E31005CF721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6816974428501E31005CF721 /* BeamAIBrowser */,
+				6816975A28501E33005CF721 /* BeamAIBrowserTests */,
+				6816976428501E33005CF721 /* BeamAIBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6816974328501E31005CF721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6816975528501E33005CF721 /* LaunchScreen.storyboard in Resources */,
+				6816975228501E33005CF721 /* Assets.xcassets in Resources */,
+				6816975028501E31005CF721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816975928501E33005CF721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816976328501E33005CF721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6816974128501E31005CF721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6816974D28501E31005CF721 /* ViewController.swift in Sources */,
+				6816977F2850283E005CF721 /* PreviewView.swift in Sources */,
+				6816974928501E31005CF721 /* AppDelegate.swift in Sources */,
+				6816974B28501E31005CF721 /* SceneDelegate.swift in Sources */,
+				6816978128503089005CF721 /* WebUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816975728501E33005CF721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6816976028501E33005CF721 /* SerenifyWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816976128501E33005CF721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6816976C28501E33005CF721 /* SerenifyWebUITestsLaunchTests.swift in Sources */,
+				6816976A28501E33005CF721 /* SerenifyWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6816975D28501E33005CF721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6816974428501E31005CF721 /* BeamAIBrowser */;
+			targetProxy = 6816975C28501E33005CF721 /* PBXContainerItemProxy */;
+		};
+		6816976728501E33005CF721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6816974428501E31005CF721 /* BeamAIBrowser */;
+			targetProxy = 6816976628501E33005CF721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6816974E28501E31005CF721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6816974F28501E31005CF721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6816975328501E33005CF721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6816975428501E33005CF721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6816976D28501E33005CF721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6816976E28501E33005CF721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6816977028501E33005CF721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 9AGDF85LR4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SerenifyWeb/Frameworks",
+					"$(PROJECT_DIR)/BeamAIBrowser/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeamAIBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beam AI Browser";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please approve camera permission for monitoring stress from the front camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.BeamAIBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6816977128501E33005CF721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 9AGDF85LR4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SerenifyWeb/Frameworks",
+					"$(PROJECT_DIR)/BeamAIBrowser/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeamAIBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beam AI Browser";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please approve camera permission for monitoring stress from the front camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.BeamAIBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6816977328501E33005CF721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZAKDG77C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.SerenifyWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeamAIBrowser.app/BeamAIBrowser";
+			};
+			name = Debug;
+		};
+		6816977428501E33005CF721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZAKDG77C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.SerenifyWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeamAIBrowser.app/BeamAIBrowser";
+			};
+			name = Release;
+		};
+		6816977628501E33005CF721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZAKDG77C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.SerenifyWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenifyWeb;
+			};
+			name = Debug;
+		};
+		6816977728501E33005CF721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZAKDG77C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.beamhealth.SerenifyWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenifyWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6816974028501E31005CF721 /* Build configuration list for PBXProject "BeamAIBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6816976D28501E33005CF721 /* Debug */,
+				6816976E28501E33005CF721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6816976F28501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6816977028501E33005CF721 /* Debug */,
+				6816977128501E33005CF721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6816977228501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6816977328501E33005CF721 /* Debug */,
+				6816977428501E33005CF721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6816977528501E33005CF721 /* Build configuration list for PBXNativeTarget "BeamAIBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6816977628501E33005CF721 /* Debug */,
+				6816977728501E33005CF721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68E8070928D0F46000BFE813 /* XCRemoteSwiftPackageReference "BeamAISDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/beamai/BeamAISDK-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68E8070A28D0F46000BFE813 /* BeamAISDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68E8070928D0F46000BFE813 /* XCRemoteSwiftPackageReference "BeamAISDK-iOS" */;
+			productName = BeamAISDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6816973D28501E31005CF721 /* Project object */;
+}
